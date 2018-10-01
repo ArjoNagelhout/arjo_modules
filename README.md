@@ -11,3 +11,6 @@ All modules have a `CLK` (clock) and a `RST` (reset) input, which both take a pu
 - `seq` cycles through the 8 values of the knobs and outputs the current value. 
 - `count` consists of 4 counters. Each output a pulse every x clock steps, where x can be controlled by the knob with a range of 1-16 steps. 
 - `switch` cycles through the 8 values of the inputs and outputs the current value, just like `seq`. With the difference being that it has inputs instead of knobs. 
+
+## Releases
+https://github.com/ArjoNagelhout/arjo_modules/releases
