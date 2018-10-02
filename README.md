@@ -24,5 +24,5 @@ All modules have a `CLK` (clock) and a `RST` (reset) input, which both take a pu
 
 ![](https://i.imgur.com/h9fDwUI.jpg)
 
-## Download
+## Releases
 https://github.com/ArjoNagelhout/arjo_modules/releases
