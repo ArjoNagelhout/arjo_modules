@@ -12,7 +12,7 @@ All modules have a `CLK` (clock) and a `RST` (reset) input, which both take a pu
 - `count` consists of 4 counters. Each output a pulse every x clock steps, where x can be controlled by the knob with a range of 1-16 steps. 
 - `switch` cycles through the 8 values of the inputs and outputs the current value, just like `seq`. With the difference being that it has inputs instead of knobs. 
 
-## Patch examples
+## Patch ideas
 
 ### 32 step sequencer
 2 `count` modules, 4 `seq` modules, 1 `switch` module
