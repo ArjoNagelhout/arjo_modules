@@ -1,4 +1,4 @@
-#include "arjo.hpp"
+#include "arjo_modules.hpp"
 #include "dsp/digital.hpp"
 
 struct Switch : Module {
