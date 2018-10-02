@@ -33,7 +33,7 @@ struct Switch : Module {
 
 void Switch::step() {
 	if (reset_trigger.process(inputs[RST_INPUT].value)) {
-		current_input = max_input;
+		current_input = 0;
 	}
 
 	if (clock_trigger.process(inputs[CLK_INPUT].value)) {
