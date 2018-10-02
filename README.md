@@ -1,7 +1,7 @@
 # arjo_modules
 
 This plugin consists of 3 modules: `seq`, `count` and `switch`, each 3HP wide. 
-The modules are simple on their own, but can be combined into a powerful sequencer. 
+The modules are simple on their own, but when combined they can become a powerful sequencer. 
 
 All modules have a `CLK` (clock) and a `RST` (reset) input, which both take a pulse as input. 
 
