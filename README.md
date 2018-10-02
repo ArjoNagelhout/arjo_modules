@@ -12,9 +12,6 @@ All modules have a `CLK` (clock) and a `RST` (reset) input, which both take a pu
 - `count` consists of 4 counters. Each output a pulse every x clock steps, where x can be controlled by the knob with a range of 1-16 steps. 
 - `switch` cycles through the 8 values of the inputs and outputs the current value, just like `seq`. With the difference being that it has inputs instead of knobs. 
 
-## Download
-https://github.com/ArjoNagelhout/arjo_modules/releases
-
 ## Patch examples
 
 ### 32 step sequencer
@@ -26,3 +23,6 @@ https://github.com/ArjoNagelhout/arjo_modules/releases
 - Connect the switch module's `CLK` to the output of the first `count` module. Connect `RST` to the output of the second `count` module. Connect the output to anything (`V/OCT` of the VCO-1 in this example). 
 
 ![](https://i.imgur.com/h9fDwUI.jpg)
+
+## Download
+https://github.com/ArjoNagelhout/arjo_modules/releases
