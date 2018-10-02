@@ -17,7 +17,7 @@ https://github.com/ArjoNagelhout/arjo_modules/releases
 
 ## Patch examples
 
-### 64 step sequencer
+### 32 step sequencer
 2 `count` modules, 4 `seq` modules, 1 `switch` module
 
 - Set the first `count` module on 4 steps and connect `CLK` to a pulse generator (LFO-1 in this example). 
