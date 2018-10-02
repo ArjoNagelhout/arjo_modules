@@ -24,5 +24,13 @@ All modules have a `CLK` (clock) and a `RST` (reset) input, which both take a pu
 
 ![](https://i.imgur.com/h9fDwUI.jpg)
 
+### 64 step sequencer
+1 `count` module, 8 `seq` modules, 1 `switch` module
+
+- Set the `count` module on 8 steps and connect `CLK` to a pulse generator (LFO-1 in this example)
+- Connect all `seq` modules in the same way: Connect `CLK` to the pulse generator, `RST` to the output of the `count` module and the output to the 8 consecutive inputs on the `switch` module. 
+- Connect the switch module's `CLK` to the output of the `count` module. Connect the output to anything (`V/OCT` of the VCO-1 in this example)
+
+![](https://i.imgur.com/C8cd63O.jpg)
 ## Releases
 https://github.com/ArjoNagelhout/arjo_modules/releases
